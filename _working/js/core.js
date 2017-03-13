@@ -8,7 +8,7 @@
 var app = {
   data : {},
   getData : function(){
-    return $.getJSON("js/apps.json")
+    return $.getJSON("js/data/apps.json")
       .done(function(appData){
         console.log("Retrieved App JSON");
         console.log(appData);

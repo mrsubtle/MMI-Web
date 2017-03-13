@@ -49,6 +49,8 @@ module.exports = function(grunt) {
           { expand: true, cwd: '_working/img/', src: ['**'], dest: '_dist/img/'},
           //copy js/lib
           { expand: true, cwd: '_working/js/lib/', src: ['**'], dest: '_dist/js/lib/'},
+          //copy js/data (for JSON data)
+          { expand: true, cwd: '_working/js/data/', src: ['**'], dest: '_dist/js/data/'},
           //copy fonts
           { expand: true, cwd: '_working/fonts/', src: ['**'], dest: '_dist/fonts/'}
         ]
