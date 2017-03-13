@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Product Catalog</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
+  <body>
+    <section class="main flex-container-centered" style="background-image: url(img/blank-iPhone6.png);">
+      <bounds class="flex-container-space-between restrict960">
+        <div class="actions flex-container-centered">
+
+          <div class="actions-container">
+            <!-- dynamic content here -->
+            <img id="direction" src="img/direction.svg" alt="SELECT A PRODUCT FROM THE LIST" title="SELECT A PRODUCT FROM THE LIST">
+          </div>
+
+        </div>
+        <div class="preview flex-container-centered">
+          &nbsp;
+        </div>
+        <div class="scroller">
+
+          <div class="app-list-container">
+            <!-- dynamic content here -->
+          </div>
+
+        </div>
+      </bounds>
+    </section>
+    <section class="submit flex-container-space-around restrict960">
+      <img id="splash" src="img/splash.svg" alt="MAKE A REQUEST!" title="MAKE A REQUEST!">
+      <!--<span style="font-weight: 200; font-size: 24px;">CONTACT US!</span> -->
+      <form id="requests" name="requests"
+        class="flex-container-column-start"
+        action="mailto:rbennett.pbl@gmail.com?subject=Interactive%20Request"
+        method="post"
+        enctype="text/plain">
+
+        <input name="email" type="email" placeholder="you@pbl.ca" class="flex-item-grow" />
+        <select name="product" class="flex-item">
+          <option value="not-specified">Select a product</option>
+          <option value="not-listed">Product not listed (specify in details)</option>
+          <optgroup label="Apps" id="ogApps"></optgroup>
+        </select>
+        <select name="help-with" class="flex-item">
+          <option value="not-specified">How can we help?</option>
+          <option value="feature-request">Feature request</option>
+          <option value="bug-in-demo">Found a bug in the demo</option>
+          <option value="document-issue">Issue with a document</option>
+          <option value="Sales-tip">Sales tip</option>
+        </select>
+        <textarea name="details" placeholder="Give us some details. We will respond as soon as we can. :)"></textarea>
+        <button form="requests" class="send">Send It!</button>
+
+      </form>
+    </section>
+    <footer>
+      Bottom
+    </footer>
+    <!-- Script Templates -->
+    <script type="template/javascript" id="tpl_actions-container-content">
+      <div class="app-icon flex-container-row-start">
+        <img src="<%= iconURL %>" width="44" height="44" /> <span class="app-name"><%= name %></span>
+      </div>
+      <br />
+      <div class="app-doc app-doc-demo flex-container-row-start">
+        <a href="#"><img src="img/demo-icon.svg" width="24" height="24" />Product Demo</a>
+      </div>
+      <div class="app-doc app-doc-ppt flex-container-row-start">
+        <a href="#"><img src="img/presentation-icon.svg" width="24" height="24" />Pitch Deck (.PPT)</a>
+      </div>
+      <div class="app-doc app-doc-pdf flex-container-row-start">
+        <a href="#"><img src="img/pdf-icon.svg" width="24" height="24" />Pitch Deck (.PDF)</a>
+      </div>
+    </script>
+    <script type="template/javascript" id="tpl_app-list-item">
+      <div class="app-list-item flex-container-row-start" data-arrayindex="<%= arrayindex %>">
+        <img class="flex-item-noflex" src="<%= iconURL %>" width="44" height="44" /> <span class="app-list-item-name"><%= name %></span>
+      </div>
+    </script>
+    <!-- Script Includes -->
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+  </body>
+</html>
