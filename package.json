@@ -1,21 +1,21 @@
 {
-  "name": "SimpleCalc.co",
+  "name": "MMI",
   "version": "1.0.0",
-  "description": "Web presence.",
+  "description": "Multimedia Interactive Products",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Richard Bennett J R <rich@blackagency.co>",
+  "author": "Richard Bennett J R <rbennett@pbl.ca>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrsubtle/simplecalc.co"
+    "url": "https://github.com/mrsubtle/mmi-web"
   },
   "bugs": {
-    "url": "https://github.com/mrsubtle/simplecalc.co/issues"
+    "url": "https://github.com/mrsubtle/mmi-web/issues"
   },
-  "homepage": "http://simplecalc.co",
+  "homepage": "http://localhost",
   "keywords": [
     "design", "digital", "product", "management", "development", "research", "analytics", "UX"
   ],
