@@ -3,264 +3,562 @@
     "id": 0,
     "name": "Deluxe 7s",
     "iconURL": "img/products/icons/d7s.png",
-    "actions": [
-      {
+    "featureURL": null,
+    "featureFill": true,
+		"enable": false,
+    "actions": {
+			"demo": {
         "text": "Product Demo",
         "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+        "iconURL": "img/demo-icon.svg",
+				"enable": false
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 1,
     "name": "Bingo",
     "iconURL": "img/products/icons/bingo.png",
-    "actions": [
-      {
+    "featureURL": null,
+    "featureFill": true,
+		"enable": false,
+    "actions": {
+			"demo": {
         "text": "Product Demo",
         "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+        "iconURL": "img/demo-icon.svg",
+				"enable": false
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 2,
     "name": "Wild Time",
     "iconURL": "img/products/icons/wild-time.png",
-    "actions": [
-      {
+    "featureURL": null,
+    "featureFill": true,
+		"enable": false,
+    "actions": {
+			"demo": {
         "text": "Product Demo",
         "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+        "iconURL": "img/demo-icon.svg",
+				"enable": false
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 3,
     "name": "Cashword",
     "iconURL": "img/products/icons/cashword.png",
-    "actions": [
-      {
+    "featureURL": null,
+    "featureFill": true,
+		"enable": false,
+    "actions": {
+			"demo": {
         "text": "Product Demo",
         "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+        "iconURL": "img/demo-icon.svg",
+				"enable": false
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 4,
     "name": "POP",
     "iconURL": "img/products/icons/pop.png",
-    "actions": [
-      {
+    "featureURL": null,
+    "featureFill": true,
+		"enable": false,
+    "actions": {
+			"demo": {
         "text": "Product Demo",
         "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+        "iconURL": "img/demo-icon.svg",
+				"enable": false
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 5,
     "name": "Hola! Language Learning",
     "iconURL": "img/products/icons/hola.png",
-    "actions": [
-      {
-        "text": "Product Demo",
+    "featureURL": null,
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Clickable Prototype",
         "URL": "https://invis.io/X78CTSVJB",
-        "iconURL": "img/demo-icon.svg"
+        "iconURL": "img/invision-icon.svg",
+				"enable": true
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 6,
     "name": "Jigsaw Jackpot",
     "iconURL": "img/products/icons/jigsaw-jackpot.png",
-    "actions": [
-      {
-        "text": "Product Demo",
-        "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+    "featureURL": "products/jigsaw-jackpot/001-iPad-portrait.jpg",
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Clickable Prototype",
+        "URL": "https://invis.io/8H3LO1LQX",
+        "iconURL": "img/invision-icon.svg",
+				"enable": true
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 7,
     "name": "Cash for Life",
     "iconURL": "img/products/icons/cash-for-life.png",
-    "actions": [
-      {
-        "text": "Product Demo",
-        "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+    "featureURL": null,
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Clickable Prototype",
+        "URL": "https://invis.io/KE31GTTY2",
+        "iconURL": "img/invision-icon.svg",
+				"enable": true
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 8,
     "name": "20× the Cash!",
     "iconURL": "img/products/icons/20x.png",
-    "actions": [
-      {
-        "text": "Product Demo",
-        "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+    "featureURL": null,
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Clickable Prototype",
+        "URL": "https://invis.io/ZF2SWHL2T",
+        "iconURL": "img/invision-icon.svg",
+				"enable": true
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 9,
     "name": "Solitaire",
     "iconURL": "img/products/icons/solitaire.png",
-    "actions": [
-      {
-        "text": "Product Demo",
-        "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+    "featureURL": null,
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Clickable Prototype",
+        "URL": "https://invis.io/S22VDP8GU",
+        "iconURL": "img/invision-icon.svg",
+				"enable": true
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 10,
     "name": "Slots of Fun",
     "iconURL": "img/products/icons/slots-of-fun.png",
-    "actions": [
-      {
-        "text": "Product Demo",
-        "URL": "http://projects.invisionapp.com/",
-        "iconURL": "img/demo-icon.svg"
+    "featureURL": null,
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Clickable Prototype",
+        "URL": "https://invis.io/BA2ODXP73",
+        "iconURL": "img/invision-icon.svg",
+				"enable": true
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
   },
   {
     "id": 11,
     "name": "Loteria",
     "iconURL": "img/products/icons/loteria.png",
-    "actions": [
-      {
-        "text": "Product Demo",
+    "featureURL": "products/loteria/002-iPad-Landscape.jpg",
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Clickable Prototype",
         "URL": "https://invis.io/F872L75EM",
-        "iconURL": "img/demo-icon.svg"
+        "iconURL": "img/invision-icon.svg",
+				"enable": true
       },
-      {
+      "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
-        "iconURL": "img/presentation-icon.svg"
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
       },
-      {
+      "documentation": {
         "text": "Pitch Deck (PDF)",
         "URL": "products/product.pdf",
-        "iconURL": "img/pdf-icon.svg"
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
       }
-    ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Snowy Nights",
+    "type": "Match 3 MiniGame",
+    "iconURL": "img/products/icons/match3-minigame.png",
+    "featureURL": "products/snowy-nights/iPhone7-Gold-Hand.jpg",
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Interactive Prototype",
+        "URL": "https://framer.cloud/axWgY",
+        "iconURL": "img/framer-icon.svg",
+				"enable": true
+      },
+      "presentation": {
+        "text": "Pitch Deck (PPT)",
+        "URL": "products/product.ppt",
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
+      },
+      "documentation": {
+        "text": "Pitch Deck (PDF)",
+        "URL": "products/product.pdf",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Austria Cash",
+    "type": "Match 3 MiniGame",
+    "iconURL": "img/products/icons/match3-minigame.png",
+    "featureURL": "products/austria-cash/iPhone7-JetBlack-Hand.jpg",
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Interactive Prototype",
+        "URL": "https://framer.cloud/JiyJS",
+        "iconURL": "img/framer-icon.svg",
+				"enable": true
+      },
+      "presentation": {
+        "text": "Pitch Deck (PPT)",
+        "URL": "products/product.ppt",
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
+      },
+      "documentation": {
+        "text": "Pitch Deck (PDF)",
+        "URL": "products/product.pdf",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      }
+    }
   }
 ]

@@ -8,7 +8,11 @@
 var app = {
   data : {},
   getData : function(){
-    return $.getJSON("js/data/apps.json")
+    return $.ajax({
+			url:		"js/data/apps.json?nocache=" + (new Date()).getTime(),
+			method:	"GET",
+  		cache:	false
+		})
       .done(function(appData){
         console.log("Retrieved App JSON");
         console.log(appData);
@@ -28,6 +32,19 @@ var app = {
       });
   },
   selectApp : function(appObject){
+		console.log(appObject);
+		if (appObject.featureURL != null) {
+			$('section.main').css('background-image', 'url('+appObject.featureURL+')');
+			if (appObject.featureFill == true) {
+				$('section.main').css('background-size', 'cover');
+			}
+			if (appObject.featureFill == false) {
+				$('section.main').css('background-size', 'contain');
+			}
+		} else {
+			$('section.main').css('background-image', 'url(img/blank-iPhone6.png)');
+			$('section.main').css('background-size', 'contain');
+		}
     var actionsContainerContentTemplate = _.template( $('#tpl_actions-container-content').html() );
     $('.actions-container').html(actionsContainerContentTemplate(appObject));
   },
@@ -41,8 +58,10 @@ var app = {
 
         _.each(dataToRender, function(o,i,a){
           o.arrayindex = i;
-          $('.app-list-container').append(appListItemTemplate(o));
-          $('form#requests #ogApps').append('<option value="'+o.name+'">'+o.name+'</option>');
+					if(o.enable == true){
+						$('.app-list-container').append(appListItemTemplate(o));
+	          $('form#requests #ogApps').append('<option value="'+o.name+'">'+o.name+'</option>');
+					}
         });
 
         //Auto-select the last app?
