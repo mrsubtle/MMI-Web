@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          '_build/js/core.min.js': ['_working/js/core.js']
+          '_dist/js/core.min.js': ['_working/js/core.js']
         }
       }
     },
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
           optimization: 2
         },
         files: {
-          "_build/css/style.css": "_working/css/style.less" // destination file and source file
+          "_dist/css/style.css": "_working/css/style.less" // destination file and source file
         }
       }
     },
@@ -44,47 +44,41 @@ module.exports = function(grunt) {
       main: {
         files: [
           //copy root HTML
-          { expand: true, cwd: '_working/', src: ['*.html'], dest: '_build/'},
+          { expand: true, cwd: '_working/', src: ['*.html'], dest: '_dist/'},
           //copy images
-          { expand: true, cwd: '_working/img/', src: ['**'], dest: '_build/img/'},
+          { expand: true, cwd: '_working/img/', src: ['**'], dest: '_dist/img/'},
           //copy js/lib
-          { expand: true, cwd: '_working/js/lib/', src: ['**'], dest: '_build/js/lib/'},
+          { expand: true, cwd: '_working/js/lib/', src: ['**'], dest: '_dist/js/lib/'},
           //copy fonts
-          { expand: true, cwd: '_working/fonts/', src: ['**'], dest: '_build/fonts/'}
-        ]
-      },
-      toEC2: {
-        files: [
-          //copy build to new repo
-          { expand: true, cwd: '_build/', src: ['**'], dest: '../black-00/domains/simplecalc.co/www/'}
+          { expand: true, cwd: '_working/fonts/', src: ['**'], dest: '_dist/fonts/'}
         ]
       }
     },
     "http-server": {
       'dev': {
 
-        // the server root directory 
-        root: '_build/',
+        // the server root directory
+        root: '_dist/',
 
-        // the server port 
-        // can also be written as a function, e.g. 
-        // port: function() { return 8282; } 
+        // the server port
+        // can also be written as a function, e.g.
+        // port: function() { return 8282; }
         port: 8002,
 
-        // the host ip address 
-        // If specified to, for example, "127.0.0.1" the server will  
-        // only be available on that ip. 
-        // Specify "0.0.0.0" to be available everywhere 
+        // the host ip address
+        // If specified to, for example, "127.0.0.1" the server will
+        // only be available on that ip.
+        // Specify "0.0.0.0" to be available everywhere
         host: "127.0.0.1",
 
         cache: 0,
         showDir : true,
         autoIndex: true,
 
-        // server default file extension 
+        // server default file extension
         ext: "html",
 
-        // run in parallel with other tasks 
+        // run in parallel with other tasks
         runInBackground: false
 
       }
@@ -111,6 +105,5 @@ module.exports = function(grunt) {
   //grunt.registerTask('test', ['jshint']);
 
   grunt.registerTask('default', ['less', 'uglify', 'copy:main', 'watch']);
-  grunt.registerTask('deploy', ['less', 'uglify', 'copy:main', 'copy:toEC2']);
   grunt.registerTask('server', ['http-server']);
 };
