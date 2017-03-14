@@ -98,107 +98,144 @@ html, body {
 .main bounds {
   width: 100%;
   height: 100%;
-	div.actions {
-	  background-color: rgba(255,255,255,0.25);
+
+	img#direction {
+		// Helper Image
+	  width: 100%;
+	  max-width: 300px;
 	}
+
+	> div {
+	  display: line-block;
+	  max-height: 100%;
+	}
+
+	div.actions {
+		border-radius: 4px;
+	  background-color: rgba(255,255,255,0.25);
+		transition: all 300ms ease-in;
+		&:hover {
+	  	background-color: rgba(255,255,255,0.55);
+			.app-name {
+			  font-weight: bold;
+			  font-size: 34px;
+			  text-shadow: 0 1px 2px rgba(255,255,255,0.25);
+			}
+		}
+		div.actions-container {
+		  margin: 22px;
+			.app-icon {
+			  line-height: 44px;
+				img {
+				  vertical-align: middle;
+				  margin-right: 10px;
+				}
+			}
+			.app-name {
+			  font-weight: bold;
+			  font-size: 34px;
+			  text-shadow: 0 1px 6px rgba(255,255,255,0.65);
+				transition: all 300ms ease-in;
+			}
+			.app-type {
+				padding-left: 54px;
+				font-size: 13px;
+				font-weight: 400;
+				text-transform: uppercase;
+				opacity: 0.47;
+				margin-bottom: 7px;
+			}
+			.app-doc {
+			  line-height: 32px;
+				margin-top: 7px;
+				padding-right: 20px;
+			  color: #EA2E49;
+			  transition: all 270ms cubic-bezier(.34,1.12,.45,1.08);
+			  &.disabled {
+				  opacity: 0.27;
+				}
+				img {
+				  vertical-align: middle;
+				  margin: 0 10px 2px 20px;
+				}
+			}
+			.app-doc:not(.disabled):hover {
+			  transform: scale(1.1);
+			}
+			.app-doc:not(.disabled):active {
+			  transform:  perspective(55px)
+			              translate3d(0px, 0px, 0px)
+			              scale3d(1, 1, 1)
+			              rotate3d(12, 0, 0, -8deg);
+			}
+		}
+	}
+
+	div.scroller {
+	  width: 100%;
+	  max-width: 250px;
+		border-radius: 4px;
+	  background-color: rgba(255,255,255,0.25);
+		overflow-x: hidden;
+	  overflow-y: scroll;
+
+		.app-list-container {
+		  width: 100%;
+
+			.app-list-item {
+			  width: 100%;
+			  height: 88px;
+			  /*border-bottom: 1px solid rgba(0,0,0,0.075);*/
+			  transition: all 270ms cubic-bezier(.34,1.12,.45,1.08);
+			  background-color: rgba(0,0,0,0);
+			  cursor: w-resize;
+				&:hover {
+				  transform: scale(1.1);
+				  background-color: rgba(240,240,240,0.4);
+				}
+				&:active {
+				  transform:  perspective(55px)
+				              translate3d(0px, 0px, 0px)
+				              scale3d(1, 1, 1)
+				              rotate3d(12, 0, 0, -8deg);
+				}
+				&:last-child {
+				  border-bottom: none;
+				}
+
+				&.selected {
+				  background-color: rgba(0,0,0,0.05);
+				  border-bottom: 1px solid rgba(0,0,0,0);
+				}
+
+				img {
+				  vertical-align: middle;
+				  margin: 22px;
+				}
+
+				.app-list-item-name {
+				  font-weight: bold;
+				}
+				.app-list-item-type {
+				  font-weight: 400;
+					font-size: 0.6rem;
+					opacity: 0.67;
+					text-transform: uppercase;
+				}
+			}
+		}
+
+	}
+
 }
 
-.main bounds img#direction {
-  width: 100%;
-  max-width: 300px;
-}
-.main bounds > div {
-  display: line-block;
-  max-height: 100%;
-}
 
-
-.main bounds div.actions-container {
-  margin: 22px;
-}
-.main bounds .app-icon {
-  line-height: 44px;
-}
-.main bounds .app-icon img {
-  vertical-align: middle;
-  margin-right: 10px;
-}
-.main bounds .app-name {
-  font-weight: bold;
-}
-.main bounds div.actions-container .app-name {
-  font-size: 34px;
-  text-shadow: 0 1px 6px #FFFFFF;
-}
-.main bounds .app-doc {
-  line-height: 32px;
-  color: #EA2E49;
-  transition: all 270ms cubic-bezier(.34,1.12,.45,1.08);
-  /*transform-origin: left;*/
-}
-.main bounds .app-doc.disabled {
-  opacity: 0.27;
-}
-.main bounds .app-doc:not(.disabled):hover {
-  transform: scale(1.1);
-}
-.main bounds .app-doc:not(.disabled):active {
-  transform:  perspective(55px)
-              translate3d(0px, 0px, 0px)
-              scale3d(1, 1, 1)
-              rotate3d(12, 0, 0, -8deg);
-}
-.main bounds .app-doc img {
-  vertical-align: middle;
-  margin: 0 10px 2px 20px;
-}
 a {
   text-decoration: none;
   color: inherit;
 }
 
-.main bounds div.scroller {
-  width: 100%;
-  max-width: 250px;
-  background-color: rgba(255,255,255,0.25);
-	overflow-x: hidden;
-  overflow-y: scroll;
-}
-.main bounds div.scroller .app-list-container {
-  width: 100%;
-}
-.main bounds div.scroller .app-list-item {
-  width: 100%;
-  height: 88px;
-  /*border-bottom: 1px solid rgba(0,0,0,0.075);*/
-  transition: all 270ms cubic-bezier(.34,1.12,.45,1.08);
-  background-color: rgba(0,0,0,0);
-  cursor: w-resize;
-}
-.main bounds div.scroller .app-list-item:hover {
-  transform: scale(1.1);
-  background-color: rgba(240,240,240,0.4);
-}
-.main bounds div.scroller .app-list-item:active {
-  transform:  perspective(55px)
-              translate3d(0px, 0px, 0px)
-              scale3d(1, 1, 1)
-              rotate3d(12, 0, 0, -8deg);
-}
-.main bounds div.scroller .app-list-item:last-child {
-  border-bottom: none;
-}
-.main bounds div.scroller .app-list-item.selected {
-  background-color: rgba(0,0,0,0.05);
-  border-bottom: 1px solid rgba(0,0,0,0);
-}
-.main bounds div.scroller .app-list-item img {
-  vertical-align: middle;
-  margin: 22px;
-}
-.main bounds div.scroller .app-list-item-name {
-  font-weight: bold;
-}
+
 
 .submit {
   width: 100%;
