@@ -5,13 +5,13 @@
     "iconURL": "img/products/icons/d7s.png",
     "featureURL": null,
     "featureFill": true,
-		"enable": false,
+		"enable": true,
     "actions": {
 			"demo": {
         "text": "Product Demo",
-        "URL": "http://projects.invisionapp.com/",
+        "URL": "https://www2.instantticketcontest.com/CA/PlaybookTEST/index.dhtml?of_age=on",
         "iconURL": "img/demo-icon.svg",
-				"enable": false
+				"enable": true
       },
       "presentation": {
         "text": "Pitch Deck (PPT)",
@@ -45,7 +45,7 @@
     "iconURL": "img/products/icons/bingo.png",
     "featureURL": null,
     "featureFill": true,
-		"enable": false,
+		"enable": true,
     "actions": {
 			"demo": {
         "text": "Product Demo",
@@ -67,15 +67,15 @@
       },
       "apple_link": {
         "text": "Apple App Store",
-        "URL": "",
+        "URL": "https://itunes.apple.com/ca/app/bingo-by-michigan-lottery/id511464496?mt=8",
         "iconURL": "img/apple-icon.svg",
-				"enable": false
+				"enable": true
       },
       "google_link": {
         "text": "Google Play Store",
-        "URL": "",
+        "URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.bingo",
         "iconURL": "img/google-icon.svg",
-				"enable": false
+				"enable": true
       }
     }
   },
@@ -85,7 +85,7 @@
     "iconURL": "img/products/icons/wild-time.png",
     "featureURL": null,
     "featureFill": true,
-		"enable": false,
+		"enable": true,
     "actions": {
 			"demo": {
         "text": "Product Demo",
@@ -107,15 +107,15 @@
       },
       "apple_link": {
         "text": "Apple App Store",
-        "URL": "",
+        "URL": "https://itunes.apple.com/ca/app/wild-time/id794107839?mt=8",
         "iconURL": "img/apple-icon.svg",
-				"enable": false
+				"enable": true
       },
       "google_link": {
         "text": "Google Play Store",
-        "URL": "",
+        "URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.WildTime",
         "iconURL": "img/google-icon.svg",
-				"enable": false
+				"enable": true
       }
     }
   },
@@ -125,7 +125,7 @@
     "iconURL": "img/products/icons/cashword.png",
     "featureURL": null,
     "featureFill": true,
-		"enable": false,
+		"enable": true,
     "actions": {
 			"demo": {
         "text": "Product Demo",
@@ -147,25 +147,25 @@
       },
       "apple_link": {
         "text": "Apple App Store",
-        "URL": "",
+        "URL": "https://itunes.apple.com/ca/app/cashword-by-idaho-lottery/id767578957?mt=8",
         "iconURL": "img/apple-icon.svg",
-				"enable": false
+				"enable": true
       },
       "google_link": {
         "text": "Google Play Store",
-        "URL": "",
+        "URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.CashwordID",
         "iconURL": "img/google-icon.svg",
-				"enable": false
+				"enable": true
       }
     }
   },
   {
     "id": 4,
-    "name": "POP",
+    "name": "POP!",
     "iconURL": "img/products/icons/pop.png",
     "featureURL": null,
     "featureFill": true,
-		"enable": false,
+		"enable": true,
     "actions": {
 			"demo": {
         "text": "Product Demo",
@@ -187,15 +187,15 @@
       },
       "apple_link": {
         "text": "Apple App Store",
-        "URL": "",
+        "URL": "https://itunes.apple.com/ca/app/loro-pop/id1151909326?mt=8",
         "iconURL": "img/apple-icon.svg",
-				"enable": false
+				"enable": true
       },
       "google_link": {
         "text": "Google Play Store",
-        "URL": "",
+        "URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.popLoRo",
         "iconURL": "img/google-icon.svg",
-				"enable": false
+				"enable": true
       }
     }
   },
@@ -560,5 +560,85 @@
 				"enable": false
       }
     }
-  }
+  },
+	{
+    "id": 14,
+    "name": "Cashword v2",
+    "iconURL": "img/products/icons/cashword2.png",
+    "featureURL": null,
+    "featureFill": true,
+		"enable": true,
+    "actions": {
+			"demo": {
+        "text": "Product Demo",
+        "URL": "http://projects.invisionapp.com/",
+        "iconURL": "img/demo-icon.svg",
+				"enable": false
+      },
+      "presentation": {
+        "text": "Pitch Deck (PPT)",
+        "URL": "products/product.ppt",
+        "iconURL": "img/presentation-icon.svg",
+				"enable": false
+      },
+      "documentation": {
+        "text": "Pitch Deck (PDF)",
+        "URL": "products/product.pdf",
+        "iconURL": "img/pdf-icon.svg",
+				"enable": false
+      },
+      "apple_link": {
+        "text": "Apple App Store",
+        "URL": "https://itunes.apple.com/ca/app/cashword-by-michigan-lottery/id490158122?mt=8",
+        "iconURL": "img/apple-icon.svg",
+				"enable": true
+      },
+      "google_link": {
+        "text": "Google Play Store",
+        "URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.cashword",
+        "iconURL": "img/google-icon.svg",
+				"enable": true
+      }
+    }
+  },
+	{
+		"id": 15,
+		"name": "PlayOn: Kansas Lottery",
+		"iconURL": "img/products/icons/playon.png",
+		"featureURL": null,
+		"featureFill": true,
+		"enable": true,
+		"actions": {
+			"demo": {
+				"text": "Product Demo",
+				"URL": "http://projects.invisionapp.com/",
+				"iconURL": "img/demo-icon.svg",
+				"enable": false
+			},
+			"presentation": {
+				"text": "Pitch Deck (PPT)",
+				"URL": "products/product.ppt",
+				"iconURL": "img/presentation-icon.svg",
+				"enable": false
+			},
+			"documentation": {
+				"text": "Pitch Deck (PDF)",
+				"URL": "products/product.pdf",
+				"iconURL": "img/pdf-icon.svg",
+				"enable": false
+			},
+			"apple_link": {
+				"text": "Apple App Store",
+				"URL": "https://itunes.apple.com/ca/app/kansas-lottery-playon/id1187363846?mt=8",
+				"iconURL": "img/apple-icon.svg",
+				"enable": true
+			},
+			"google_link": {
+				"text": "Google Play Store",
+				"URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.PlayOnKS",
+				"iconURL": "img/google-icon.svg",
+				"enable": true
+			}
+		}
+	}
 ]
