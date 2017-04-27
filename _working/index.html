@@ -55,8 +55,8 @@
 
       </form>
     </section>
-    <footer>
-      Bottom
+    <footer class="flex-container-centered">
+      <img src="img/PBL_Logo_200.svg" alt="Pollard Banknote Ltd." title="Pollard Banknote Ltd." style="transform: scale(.75);" />
     </footer>
     <!-- Script Templates -->
     <script type="template/javascript" id="tpl_actions-container-content">
@@ -76,28 +76,28 @@
 			if(actions.presentation.enable === true){
 			%>
 	      <div class="app-doc app-doc-ppt flex-container-row-start">
-					<a href="<%= actions.presentation.URL %>"><img src="<%= actions.presentation.iconURL %>" width="24" height="24" /><%= actions.presentation.text %></a>
+					<a href="<%= actions.presentation.URL %>" target="_blank"><img src="<%= actions.presentation.iconURL %>" width="24" height="24" /><%= actions.presentation.text %></a>
 	      </div>
 			<%
 			}
 			if(actions.documentation.enable === true){
 			%>
 	      <div class="app-doc app-doc-pdf flex-container-row-start">
-					<a href="<%= actions.documentation.URL %>"><img src="<%= actions.documentation.iconURL %>" width="24" height="24" /><%= actions.documentation.text %></a>
+					<a href="<%= actions.documentation.URL %>" target="_blank"><img src="<%= actions.documentation.iconURL %>" width="24" height="24" /><%= actions.documentation.text %></a>
 	      </div>
 			<%
 			}
 			if(actions.apple_link.enable === true){
 			%>
 	      <div class="app-doc flex-container-row-start">
-					<a href="<%= actions.apple_link.URL %>"><img src="<%= actions.apple_link.iconURL %>" width="24" height="24" /><%= actions.apple_link.text %></a>
+					<a href="<%= actions.apple_link.URL %>" target="_blank"><img src="<%= actions.apple_link.iconURL %>" width="24" height="24" /><%= actions.apple_link.text %></a>
 	      </div>
 			<%
 			}
 			if(actions.google_link.enable === true){
 			%>
 	      <div class="app-doc flex-container-row-start">
-					<a href="<%= actions.google_link.URL %>"><img src="<%= actions.google_link.iconURL %>" width="24" height="24" /><%= actions.google_link.text %></a>
+					<a href="<%= actions.google_link.URL %>" target="_blank"><img src="<%= actions.google_link.iconURL %>" width="24" height="24" /><%= actions.google_link.text %></a>
 	      </div>
 			<% } %>
     </script>

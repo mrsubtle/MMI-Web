@@ -3,7 +3,7 @@
     "id": 0,
     "name": "Deluxe 7s",
     "iconURL": "img/products/icons/d7s.png",
-    "featureURL": null,
+    "featureURL": "products/deluxe7s/001-MacBook-Silver.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -43,7 +43,7 @@
     "id": 1,
     "name": "Bingo",
     "iconURL": "img/products/icons/bingo.png",
-    "featureURL": null,
+		"featureURL": "products/bingo/001-iPhone7-landscape.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -83,7 +83,7 @@
     "id": 2,
     "name": "Wild Time",
     "iconURL": "img/products/icons/wild-time.png",
-    "featureURL": null,
+		"featureURL": "products/wild-time/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -123,7 +123,7 @@
     "id": 3,
     "name": "Cashword",
     "iconURL": "img/products/icons/cashword.png",
-    "featureURL": null,
+		"featureURL": "products/cashword/001-iPhone7-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -163,7 +163,7 @@
     "id": 4,
     "name": "POP!",
     "iconURL": "img/products/icons/pop.png",
-    "featureURL": null,
+		"featureURL": "products/pop/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -203,7 +203,7 @@
     "id": 5,
     "name": "Hola! Language Learning",
     "iconURL": "img/products/icons/hola.png",
-    "featureURL": "products/hola/001-iPad-portrait.jpg",
+    "featureURL": "products/hola/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -243,7 +243,7 @@
     "id": 6,
     "name": "Jigsaw Jackpot",
     "iconURL": "img/products/icons/jigsaw-jackpot.png",
-    "featureURL": "products/jigsaw-jackpot/001-iPad-portrait.jpg",
+    "featureURL": "products/jigsaw-jackpot/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -283,7 +283,7 @@
     "id": 7,
     "name": "Cash for Life",
     "iconURL": "img/products/icons/cash-for-life.png",
-    "featureURL": "products/cash-for-life/iPad-Hand-CoffeeTable.jpg",
+		"featureURL": "products/cash-for-life/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -323,7 +323,7 @@
     "id": 8,
     "name": "20× the Cash!",
     "iconURL": "img/products/icons/20x.png",
-    "featureURL": "products/20x-the-cash/001-iPad-portrait.jpg",
+    "featureURL": "products/20x-the-cash/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -363,7 +363,7 @@
     "id": 9,
     "name": "Solitaire",
     "iconURL": "img/products/icons/solitaire.png",
-    "featureURL": null,
+		"featureURL": "products/solitaire/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -403,7 +403,7 @@
     "id": 10,
     "name": "Slots of Fun",
     "iconURL": "img/products/icons/slots-of-fun.png",
-    "featureURL": null,
+		"featureURL": "products/slots-of-fun/002-iPad-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -457,7 +457,7 @@
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
         "iconURL": "img/presentation-icon.svg",
-				"enable": true
+				"enable": false
       },
       "documentation": {
         "text": "Pitch Deck (PDF)",
@@ -469,7 +469,7 @@
         "text": "Apple App Store",
         "URL": "",
         "iconURL": "img/apple-icon.svg",
-				"enable": true
+				"enable": false
       },
       "google_link": {
         "text": "Google Play Store",
@@ -484,7 +484,7 @@
     "name": "Snowy Nights",
     "type": "Match 3 MiniGame",
     "iconURL": "img/products/icons/match3-minigame.png",
-    "featureURL": "products/snowy-nights/iPhone7-Gold-Hand.jpg",
+    "featureURL": "products/snowy-nights/001-iPhone7-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -510,7 +510,7 @@
         "text": "Apple App Store",
         "URL": "",
         "iconURL": "img/apple-icon.svg",
-				"enable": true
+				"enable": false
       },
       "google_link": {
         "text": "Google Play Store",
@@ -525,7 +525,7 @@
     "name": "Austria Cash",
     "type": "Match 3 MiniGame",
     "iconURL": "img/products/icons/match3-minigame.png",
-    "featureURL": "products/austria-cash/iPhone7-JetBlack-Hand.jpg",
+    "featureURL": "products/austria-cash/001-iPhone7-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -565,7 +565,7 @@
     "id": 14,
     "name": "Cashword v2",
     "iconURL": "img/products/icons/cashword2.png",
-    "featureURL": null,
+		"featureURL": "products/cashword2/001-iPhone7-portrait.jpg",
     "featureFill": true,
 		"enable": true,
     "actions": {
@@ -605,7 +605,7 @@
 		"id": 15,
 		"name": "PlayOn: Kansas Lottery",
 		"iconURL": "img/products/icons/playon.png",
-		"featureURL": null,
+		"featureURL": "products/playon/001-iPhone7-portrait.jpg",
 		"featureFill": true,
 		"enable": true,
 		"actions": {
@@ -638,6 +638,46 @@
 				"URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.PlayOnKS",
 				"iconURL": "img/google-icon.svg",
 				"enable": true
+			}
+		}
+	},
+	{
+		"id": 16,
+		"name": "Lucky Match",
+		"iconURL": "img/products/icons/lucky-match.png",
+		"featureURL": "products/lucky-match/001-iPhone7-portrait.jpg",
+		"featureFill": true,
+		"enable": true,
+		"actions": {
+			"demo": {
+        "text": "Interactive Prototype",
+        "URL": "https://framer.cloud/LRxXU/",
+        "iconURL": "img/framer-icon.svg",
+				"enable": true
+      },
+			"presentation": {
+				"text": "Pitch Deck (PPT)",
+				"URL": "products/product.ppt",
+				"iconURL": "img/presentation-icon.svg",
+				"enable": false
+			},
+			"documentation": {
+				"text": "Pitch Deck (PDF)",
+				"URL": "products/product.pdf",
+				"iconURL": "img/pdf-icon.svg",
+				"enable": false
+			},
+			"apple_link": {
+				"text": "Apple App Store",
+				"URL": "https://itunes.apple.com/ca/app/kansas-lottery-playon/id1187363846?mt=8",
+				"iconURL": "img/apple-icon.svg",
+				"enable": false
+			},
+			"google_link": {
+				"text": "Google Play Store",
+				"URL": "https://play.google.com/store/apps/details?id=com.pollardbanknote.PlayOnKS",
+				"iconURL": "img/google-icon.svg",
+				"enable": false
 			}
 		}
 	}
