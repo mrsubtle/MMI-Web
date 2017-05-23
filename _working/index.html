@@ -87,6 +87,17 @@
 	      </div>
 			<%
 			}
+			if(actions.images.length >= 1){
+				_.each(actions.images, function(o,i,a){
+					if(o.enable) {
+			%>
+			      <div class="app-doc app-doc-pdf flex-container-row-start">
+							<a href="<%= actions.images[i].URL %>" target="_blank"><img src="<%= actions.images[i].iconURL %>" width="24" height="24" /><%= actions.images[i].text %></a>
+			      </div>
+			<%
+					}
+				});
+			}
 			if(actions.apple_link.enable === true){
 			%>
 	      <div class="app-doc flex-container-row-start">

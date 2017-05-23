@@ -25,6 +25,26 @@
         "iconURL": "img/pdf-icon.svg",
 				"enable": false
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
       "apple_link": {
         "text": "Apple App Store",
         "URL": "",
@@ -53,6 +73,26 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/bingo/001-iPhone7-landscape.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -93,6 +133,26 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/bingo/001-iPhone7-landscape.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/wild-time/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -133,6 +193,26 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/wild-time/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -173,6 +253,26 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/pop/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -213,6 +313,26 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/hola/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -253,6 +373,26 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/jigsaw-jackpot/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -293,6 +433,26 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/cash-for-life/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -333,6 +493,26 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/20x-the-cash/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -373,6 +553,26 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/solitaire/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -413,6 +613,26 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/slots-of-fun/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -453,6 +673,26 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/loteria/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -494,6 +734,26 @@
         "iconURL": "img/framer-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/snowy-nights/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/slots-of-fun/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -535,6 +795,26 @@
         "iconURL": "img/framer-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/austria-cash/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/slots-of-fun/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -575,6 +855,26 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/cashword2/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/slots-of-fun/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -615,6 +915,26 @@
 				"iconURL": "img/demo-icon.svg",
 				"enable": false
 			},
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/playon/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/slots-of-fun/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
 			"presentation": {
 				"text": "Pitch Deck (PPT)",
 				"URL": "products/product.ppt",
@@ -655,6 +975,26 @@
         "iconURL": "img/framer-icon.svg",
 				"enable": true
       },
+      "images": [
+				{
+	        "text": "MacBook Mockup (JPG)",
+	        "URL": "products/deluxe7s/001-MacBook-Silver.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      },
+				{
+	        "text": "iPhone Mockup (JPG)",
+	        "URL": "products/lucky-match/001-iPhone7-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": true
+	      },
+				{
+	        "text": "iPad Mockup (JPG)",
+	        "URL": "products/slots-of-fun/002-iPad-portrait.jpg",
+	        "iconURL": "img/img-icon.svg",
+					"enable": false
+	      }
+			],
 			"presentation": {
 				"text": "Pitch Deck (PPT)",
 				"URL": "products/product.ppt",
