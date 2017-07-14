@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="471px" height="280px" viewBox="0 0 471 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>internal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="559" height="82"></rect>
+    </defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="internal">
+            <g id="Group" transform="translate(212.500000, 97.000000) rotate(-30.000000) translate(-212.500000, -97.000000) translate(-67.000000, 56.000000)">
+                <g id="Rectangle-3">
+                    <use fill="#F5CBD1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#EA2E49" stroke-width="2" x="1" y="1" width="557" height="80"></rect>
+                </g>
+                <text id="INTERNAL-USE-ONLY" font-family="AvenirNext-Heavy, Avenir Next" font-size="28" font-weight="600" fill="#EA2E49">
+                    <tspan x="98.108" y="42">INTERNAL USE ONLY</tspan>
+                </text>
+                <text id="DO-NOT-SHARE-YOUR-LO" font-family="AvenirNext-DemiBold, Avenir Next" font-size="17" font-weight="500" fill="#EA2E49">
+                    <tspan x="64.0335" y="62">DO NOT SHARE YOUR LOGIN INFORMATION</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
