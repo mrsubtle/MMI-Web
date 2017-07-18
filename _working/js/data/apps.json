@@ -26,6 +26,14 @@
         "iconURL": "img/pdf-icon.svg",
 				"enable": false
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -75,6 +83,14 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -136,6 +152,14 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -197,6 +221,14 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -258,6 +290,14 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -318,6 +358,14 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -378,6 +426,14 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -438,6 +494,14 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -498,6 +562,14 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -558,6 +630,14 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -618,6 +698,14 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -678,6 +766,14 @@
         "iconURL": "img/invision-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -759,6 +855,14 @@
 					"enable": false
 	      }
 			],
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": true
+	      }
+			],
       "presentation": {
         "text": "Pitch Deck (PPT)",
         "URL": "products/product.ppt",
@@ -800,6 +904,14 @@
         "iconURL": "img/framer-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -861,6 +973,14 @@
         "iconURL": "img/demo-icon.svg",
 				"enable": false
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -922,6 +1042,14 @@
 				"iconURL": "img/demo-icon.svg",
 				"enable": false
 			},
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/snowy-nights/snowy-nights-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": false
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",
@@ -983,6 +1111,14 @@
         "iconURL": "img/framer-icon.svg",
 				"enable": true
       },
+      "videos": [
+				{
+	        "text": "Gameplay Demo Video",
+	        "URL": "products/lucky-match/lucky-match-demo.mp4",
+	        "iconURL": "img/vid-icon.svg",
+					"enable": true
+	      }
+			],
       "images": [
 				{
 	        "text": "MacBook Mockup (JPG)",

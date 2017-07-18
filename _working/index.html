@@ -90,6 +90,17 @@
 	      </div>
 			<%
 			}
+			if(actions.videos.length >= 1){
+				_.each(actions.videos, function(o,i,a){
+					if(o.enable) {
+			%>
+			      <div class="app-doc app-doc-pdf flex-container-row-start">
+							<a href="<%= actions.videos[i].URL %>" target="_blank"><img src="<%= actions.videos[i].iconURL %>" width="24" height="24" /><%= actions.videos[i].text %></a>
+			      </div>
+			<%
+					}
+				});
+			}
 			if(actions.images.length >= 1){
 				_.each(actions.images, function(o,i,a){
 					if(o.enable) {
